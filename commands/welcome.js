@@ -1,8 +1,8 @@
 module.exports = (client) => {
 
   // Welcome Message Command
-    const welcomechannelId = '' //Channel You Want to Send The Welcome Message
-    const targetChannelId = `` //Channel For Rules
+    const welcomechannelId = '806832456593965079' //Channel You Want to Send The Welcome Message
+    const targetChannelId = `806912803054288967` //Channel For Rules
 
     client.on('guildMemberAdd', (member) => {
         console.log(member)
@@ -16,7 +16,7 @@ Have A Nice Time!`
     
     // Leave Message Command
 
-    const leavechannelId = '' //Channel You Want to Send The Leave Message
+    const leavechannelId = '806882018993373194' //Channel You Want to Send The Leave Message
 
     client.on('guildMemberRemove', (member) => {
         const leavemessage = `<@${member.id}> Just Left Server.`
